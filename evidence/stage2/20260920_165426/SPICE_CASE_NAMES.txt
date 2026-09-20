@@ -1,0 +1,8 @@
+transfer_spice.dat
+output_gate_1_spice.dat
+output_gate_2_spice.dat
+output_gate_3_spice.dat
+output_gate_4_spice.dat
+output_gate_5_spice.dat
+output_gate_6_spice.dat
+low_vds_spice.dat

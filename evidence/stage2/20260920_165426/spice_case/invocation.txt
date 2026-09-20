@@ -1,0 +1,2 @@
+"[REDACTED_LOCAL_NGSPICE_PATH]" -b -o ngspice_run.log mosfet_level1.cir
+Working directory: [REDACTED_LOCAL_WORKING_DIRECTORY]

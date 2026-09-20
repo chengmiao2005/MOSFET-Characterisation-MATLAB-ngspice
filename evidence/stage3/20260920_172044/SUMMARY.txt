@@ -1,0 +1,17 @@
+STAGE3_STATUS=PASS_SAME_MODEL_POSTPROCESSING
+SELF_CHECKS=13/13
+MATLAB=24.1.0.2537033 (R2024a)
+SOURCE_SPICE_RUN=USER_RETURN_20260920_165426
+SPICE_EXECUTED_THIS_STAGE=NO_REUSED_USER_OUTPUTS
+Vth_estimate_V=1.19999999674
+beta_estimate_A_per_V2=0.00199999998988
+lambda_estimate_per_V=0.0200000005916
+unique_fitting_bias_points=107
+unique_heldout_bias_points=959
+heldout_max_abs_error_A=1.16229994379e-11
+heldout_rmse_A=3.73191485255e-12
+graphics_errors=0
+No new ngspice execution. Reused raw outputs have been copied to input_snapshot.
+No physical device, wafer test, instrumental pA accuracy, or uncertainty coverage demonstrated.
+Known educational-model references score estimates; fit windows are model-informed.
+One transfer curve identifies beta*(1+lambda*VDS), not beta and lambda separately.

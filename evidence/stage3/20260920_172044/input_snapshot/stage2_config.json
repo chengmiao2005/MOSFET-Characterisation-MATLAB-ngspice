@@ -1,0 +1,1 @@
+{"version":"2.0","data_origin":"MODEL_ONLY_NOT_EXPERIMENT","vth_V":1.2,"beta_A_per_V2":0.002,"lambda_per_V":0.02,"vgs_step_V":0.02,"vds_transfer_V":3,"low_vds_V":0.2,"fit_window_V":[1.7,2.7],"gain_error":0.008,"offset_A":1.5E-5,"spice_abs_tolerance_A":1E-10,"spice_rel_tolerance":1E-6}

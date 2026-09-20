@@ -1,0 +1,17 @@
+STAGE 2A: MATHEMATICAL ERROR-MECHANISM STUDY
+MATLAB: 24.1.0.2537033 (R2024a)
+Mechanism checks: 9/9 passed
+No random noise, no ADC, exact assumed correction in Stage 2A.
+Ideal: Vth=1.200000000 V, error=+0.000000 mV
+Gain only: Vth=1.200000000 V, error=+0.000000 mV
+Offset only: Vth=1.183802020 V, error=-16.197980 mV
+Gain and offset: Vth=1.183930234 V, error=-16.069766 mV
+Exact correction: Vth=1.200000000 V, error=+0.000000 mV
+Deliberately inappropriate VDS=0.2 fit: 0.472218045 V
+That last number is a method-domain counterexample, NOT a changed physical Vth.
+SPICE_STATUS=EXECUTED_COMPARISON_PASS
+SPICE message: 
+Graphics errors: 0
+SPICE comparison uses absolute/relative numerical tolerances fixed in config.
+No hardware, real-device validation, wafer measurements, or uncertainty coverage claim.
+Read README_CN.md before describing this work in an application.

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+local_audit*/
+project/stage1/outputs/
+project/stage1/outputs_stage1/
+project/stage2/outputs_stage2/
+project/stage3/outputs_stage3/
+project/stage2/Stage2B_result_*.zip
+project/stage3/Stage3_result_*.zip
+*.asv

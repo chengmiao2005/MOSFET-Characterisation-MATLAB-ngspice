@@ -1,0 +1,1 @@
+{"stage":"3.0","data_origin":"USER_NGSPICE47_SIMULATION_20260920_165426","transfer_fit_V":[1.7,2.7],"output_fit_V":[1.6,3],"candidate_lambda_per_V":[0,0.02,0.05],"absolute_current_tolerance_A":1E-10,"relative_current_tolerance":1E-6,"bias_key_scale":1.0E+9}

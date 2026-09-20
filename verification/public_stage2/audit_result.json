@@ -1,0 +1,457 @@
+{
+  "result_directory": "20260920_165426",
+  "actual_engines_run_by_this_audit": [],
+  "audit_engine": "Python + NumPy + SciPy; no MATLAB/ngspice execution",
+  "reported_matlab_version": "24.1.0.2537033 (R2024a)",
+  "reported_ngspice_version": "ngspice-47",
+  "original_atol_A": 1e-10,
+  "original_rtol": 1e-06,
+  "total_compared_points": 1078,
+  "points_within_original_tolerance": 1078,
+  "cases": [
+    {
+      "case_id": 1,
+      "raw_file": "transfer_spice.dat",
+      "points": 176,
+      "max_abs_error_A": 3.010002837255943e-12,
+      "rmse_A": 3.0099997939195874e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.0301
+    },
+    {
+      "case_id": 2,
+      "raw_file": "output_gate_1_spice.dat",
+      "points": 121,
+      "max_abs_error_A": 3.009999999999993e-12,
+      "rmse_A": 1.7443046619170356e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.03009999999999993
+    },
+    {
+      "case_id": 3,
+      "raw_file": "output_gate_2_spice.dat",
+      "points": 121,
+      "max_abs_error_A": 3.0099999370151315e-12,
+      "rmse_A": 1.7443034743343199e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.01540429855176628
+    },
+    {
+      "case_id": 4,
+      "raw_file": "output_gate_3_spice.dat",
+      "points": 121,
+      "max_abs_error_A": 3.009999367808991e-12,
+      "rmse_A": 1.744303009142447e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.0038669056626528665
+    },
+    {
+      "case_id": 5,
+      "raw_file": "output_gate_4_spice.dat",
+      "points": 121,
+      "max_abs_error_A": 3.010000235170729e-12,
+      "rmse_A": 1.7443029036971563e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.0015914138919164264
+    },
+    {
+      "case_id": 6,
+      "raw_file": "output_gate_5_spice.dat",
+      "points": 121,
+      "max_abs_error_A": 3.010001102532467e-12,
+      "rmse_A": 1.7443033398797856e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.0008516300086386563
+    },
+    {
+      "case_id": 7,
+      "raw_file": "output_gate_6_spice.dat",
+      "points": 121,
+      "max_abs_error_A": 3.010000235170729e-12,
+      "rmse_A": 1.7443039830724518e-12,
+      "passed": true,
+      "max_error_over_tolerance": 0.0005273855407314591
+    },
+    {
+      "case_id": 8,
+      "raw_file": "low_vds_spice.dat",
+      "points": 176,
+      "max_abs_error_A": 2.1000052825154158e-13,
+      "rmse_A": 2.0999999688527027e-13,
+      "passed": true,
+      "max_error_over_tolerance": 0.0021
+    }
+  ],
+  "checks_passed": 63,
+  "checks_total": 63,
+  "checks": [
+    {
+      "name": "Reported actual-execution comparison pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Engine version and successful version query present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All eight analyses completed in ngspice log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No error/fatal or convergence failure in engine log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Original absolute and relative tolerances unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 1: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 1: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 1: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 1: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 1: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 1: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 2: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 2: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 2: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 2: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 2: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 2: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 3: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 3: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 3: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 3: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 3: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 3: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 4: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 4: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 4: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 4: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 4: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 4: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 5: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 5: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 5: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 5: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 5: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 5: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 6: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 6: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 6: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 6: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 6: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 6: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 7: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 7: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 7: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 7: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 7: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 7: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 8: finite four-column raw SPICE file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 8: sweep and terminal voltages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 8: raw data preserved in CSV",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 8: model, residual and tolerance recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 8: summary statistics recomputed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Case 8: every point satisfies ORIGINAL tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage2A currents independently reproduced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage2A threshold table reproduced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Low-VDS counterexample curve reproduced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Nine original mechanism self-check flags passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MAT config equals JSON config",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MAT arrays and estimates independently reproduced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MAT result status and checks match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Plot generation error log empty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Five readable returned PNGs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Transfer residual consistent with specified GMIN*VDS+IS",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "transfer_residual_A": {
+    "min": 3.009995031000301e-12,
+    "max": 3.010002837255943e-12,
+    "peak_to_peak": 7.806255641895632e-18,
+    "GMIN_times_VDS_plus_IS_A": 3.0100000000000003e-12
+  },
+  "sha256": {
+    "01_error_source_mechanisms_MODEL.png": "f3c3627ef6d206f42875bd2b55cfc7cf0b8ce6f7a6c5d761edacaa227861c8b1",
+    "02_current_errors_MODEL.png": "f4099c941166d5165392fca8f1ed01cfae757c380729c09a6a14dd5cbf60714f",
+    "03_wrong_region_counterexample_MODEL.png": "61cc47421039dd2e066122e30bad14f0e4d00fbfbc3dd549feb31f88cf2ed5f3",
+    "04_SPICE_transfer_COMPARISON.png": "1f50e2b88bf6bf75db6fcaf9b2ffb845bad17c42ed53cf45dfff21a5b80a4791",
+    "05_SPICE_residual_COMPARISON.png": "d660cd2de9c817ae355731fd38086d0e1719fca968cb5cb79846310655f3b67d",
+    "GRAPHICS_ERRORS.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "MECHANISM_CHECK_NAMES.txt": "ac9ed2a41d0f2063631214c56f3feffc2342ca9d8faecb32aeb10b671e5c7a81",
+    "SPICE_CASE_NAMES.txt": "6da2acedcc0f831362357af80c3c1f1c00d9b0eb686792edc4a0fa03c2fdb045",
+    "SPICE_comparison_01.csv": "1a61c4348d40f970429927778ae97341fb25bef75a84420bbee35862e765ffa7",
+    "SPICE_comparison_02.csv": "3624cf52e19fcdac755cadaf8afc767890d87abe796fe0471dce540846699cbe",
+    "SPICE_comparison_03.csv": "d28f2e8d2f996e2b85a134bf9216fabca8646a2ed7bd0eef483c7933e9746679",
+    "SPICE_comparison_04.csv": "9fca273209d522406ae4ca29c2b2a76e3a41ec0aec50cc5e758a47f88628fa12",
+    "SPICE_comparison_05.csv": "7585f58514bf1175d7ed27b1cb2d4dbfb255720ad1018fba4ebd061ed6d3d395",
+    "SPICE_comparison_06.csv": "1344130a477f1e0ec922e1ed1e74bd027473b63211c09a6de3bbf8e0e152560a",
+    "SPICE_comparison_07.csv": "46ac80c7f9bac49e330059c59dcad1a571d44a3326faa094f1ae9b1060aeb558",
+    "SPICE_comparison_08.csv": "bd05a2a5429fa7b619e22f6b615a444000fa6119ae918ad2099a0ca5b8e8a0da",
+    "SPICE_comparison_summary.csv": "85de00cb0b8ecb1884e0ad54fec7d74558ba7890ef3b679b74a5ed6f7467cc24",
+    "STATUS.txt": "e59c62cc93f2fdf9ec4848907824ce3cc065360772398ca42cc39d32ef874c12",
+    "SUMMARY.txt": "45bde4e618f75b7815ad5d0742f30c1d01218e88889ac50cbc51de575b0f6d34",
+    "config.json": "e50710df601eb2ef671c06fcd8233edc9a184e8ec8ff8b35b7e40ecdd53afc9b",
+    "executed_launcher.m": "fe01f41f675b9b9335e373ec47be812f2ece2a2ee9eacc0de71cb0fb11fd0e88",
+    "executed_source.m": "32a9c7120ba4025b9f4a8afaa61d4a7e96d00d988734c805adcd7d3687f4967b",
+    "low_vds_counterexample_MODEL.csv": "8cd53a3a598417b836f515552f98e83209110886fcb92a4a41e02c6163a92226",
+    "mechanism_curves_MODEL.csv": "8dad6846f174029c8ecf6497a71c3b621eed2799f326af31e59a71872c2d1e53",
+    "mechanism_self_checks.csv": "ff4faf37a04c52f2cab1a4382eeddfbded088dbd493ef4f46cf2a0249470cc02",
+    "mechanism_summary_MODEL.csv": "6232eee680446f56a5a08af35c4facb62c029ad1e9e31026bd182a4a518233a4",
+    "results.mat": "6486748daea5f4381a88c83bc227e7d94797792dd2e2bd2fc29378d51a1b8834",
+    "spice_case/console.txt": "744c5bd2c29f295d0e5c82e9bcfb30bed16a40344bc9f4b713bc2bcb7cfef6f6",
+    "spice_case/engine_version.txt": "4619eea46b5a106c268e47e952d28a08fbf1a4ca72e09c3219b63f8417df2389",
+    "spice_case/invocation.txt": "0beb23a8549668359d917aa4ef0de92dcae9be47fab7dde7627990618ff623d6",
+    "spice_case/low_vds_spice.dat": "a12fa531930a7574e861f3d35487b69dd05fa1379652ac81121c8231acf76bfb",
+    "spice_case/mosfet_level1.cir": "58d6aa8033884c848b6226636caa90d5680cc6a407b1f51a7fb517149043292a",
+    "spice_case/ngspice_run.log": "f3658f762e005ee4abf89d430b15b1de179e4c90769bb1732a7116711e623ac0",
+    "spice_case/output_gate_1_spice.dat": "5d043fe1fa5705ebc7d4474770d51d5dfecd418c8904cbc2e69e354ce1ad776f",
+    "spice_case/output_gate_2_spice.dat": "47756b62a00dbb312f5afb289c687689b8bcbd4cdcd5bc333d1af7e720bd2696",
+    "spice_case/output_gate_3_spice.dat": "e8098ab0ec73c89238f451ce4c6a40b03843c96b445bd2390e8530adbbdef04d",
+    "spice_case/output_gate_4_spice.dat": "3a937e7022d2135d748853f3fb4647dae88689aed35005f0596acb9601704c35",
+    "spice_case/output_gate_5_spice.dat": "307ceaec96274eaae92aa664f7ae23ad7fbe8da3bba24f7691f0c2dfaa2b822e",
+    "spice_case/output_gate_6_spice.dat": "7cd9350de5e64ac81d9d1f4e614f8d7f001f4f20879dacc41701e9be4ef86691",
+    "spice_case/transfer_spice.dat": "f0ba8ebc360917c01115acf2e3013ac12dfceaf646bccdc5b72a3480b568b192"
+  },
+  "limitations": [
+    "Same-model implementation consistency, not independent physical validation.",
+    "No hardware, ADC, repeatability measurement, or instrumental pA precision demonstrated.",
+    "Checks are integrity and numerical checks, not independent experiments."
+  ]
+}

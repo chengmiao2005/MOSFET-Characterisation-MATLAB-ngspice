@@ -1,0 +1,53 @@
+PSI educational MOSFET - Level-1 implementation consistency test only
+* All device parameters are educational assumptions, not a real device fit.
+* Stage1 beta = KP*W/L; W=L=10 um here, so KP=0.002 A/V^2.
+* Source and bulk grounded; temperature and nominal temperature both 27 C.
+* Drain-source supply current includes junction/GMIN terms absent in Stage1.
+Vgate g 0 DC 0
+Vdrain d 0 DC 3
+M1 d g 0 0 NEDU L=10u W=10u AD=0 AS=0 PD=0 PS=0
+.model NEDU NMOS (LEVEL=1 VTO=1.2 KP=0.002 LAMBDA=0.02
++ GAMMA=0 PHI=0.6 RD=0 RS=0 IS=1e-14 TNOM=27)
+.options TEMP=27 TNOM=27 RELTOL=1e-9 ABSTOL=1e-14 VNTOL=1e-10 GMIN=1e-12
+.control
+set noaskquit
+set numdgt=15
+set wr_singlescale
+set wr_vecnames
+save v(g) v(d) i(vdrain)
+dc Vgate 0 3.5 0.02
+let idrain = -i(vdrain)
+wrdata transfer_spice.dat v(g) v(d) idrain
+alter Vgate 1.0
+dc Vdrain 0 3 0.025
+let idrain = -i(vdrain)
+wrdata output_gate_1_spice.dat v(g) v(d) idrain
+alter Vgate 1.5
+dc Vdrain 0 3 0.025
+let idrain = -i(vdrain)
+wrdata output_gate_2_spice.dat v(g) v(d) idrain
+alter Vgate 2.0
+dc Vdrain 0 3 0.025
+let idrain = -i(vdrain)
+wrdata output_gate_3_spice.dat v(g) v(d) idrain
+alter Vgate 2.5
+dc Vdrain 0 3 0.025
+let idrain = -i(vdrain)
+wrdata output_gate_4_spice.dat v(g) v(d) idrain
+alter Vgate 3.0
+dc Vdrain 0 3 0.025
+let idrain = -i(vdrain)
+wrdata output_gate_5_spice.dat v(g) v(d) idrain
+alter Vgate 3.5
+dc Vdrain 0 3 0.025
+let idrain = -i(vdrain)
+wrdata output_gate_6_spice.dat v(g) v(d) idrain
+* Deliberate method-domain counterexample: fit window is in the triode region.
+alter Vdrain 0.2
+alter Vgate 0
+dc Vgate 0 3.5 0.02
+let idrain = -i(vdrain)
+wrdata low_vds_spice.dat v(g) v(d) idrain
+quit
+.endc
+.end

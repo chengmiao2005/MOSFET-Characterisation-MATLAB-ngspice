@@ -1,0 +1,8 @@
+Raw rows: 1078; distinct bias points: 1066.
+Direct fitting rows: 108; unique fitting bias points: 107.
+Rows excluded because they share a fitted bias: 109.
+Held-out rows: 969; distinct held-out bias points used for aggregate metrics: 959.
+Bias keys use 1e-9 V rounding ONLY for grouping intersections, not for fitting.
+Repeated bias points are excluded/deduplicated, not additional experiments.
+The fit windows were chosen for a known educational model, not blind identification.
+Held-out points are same-model deterministic simulations, not independent physical evidence.

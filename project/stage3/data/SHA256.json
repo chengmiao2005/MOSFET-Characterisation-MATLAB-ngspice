@@ -1,0 +1,18 @@
+{
+  "spice_case/console.txt": "744c5bd2c29f295d0e5c82e9bcfb30bed16a40344bc9f4b713bc2bcb7cfef6f6",
+  "spice_case/engine_version.txt": "4619eea46b5a106c268e47e952d28a08fbf1a4ca72e09c3219b63f8417df2389",
+  "spice_case/low_vds_spice.dat": "a12fa531930a7574e861f3d35487b69dd05fa1379652ac81121c8231acf76bfb",
+  "spice_case/mosfet_level1.cir": "58d6aa8033884c848b6226636caa90d5680cc6a407b1f51a7fb517149043292a",
+  "spice_case/ngspice_run.log": "f3658f762e005ee4abf89d430b15b1de179e4c90769bb1732a7116711e623ac0",
+  "spice_case/output_gate_1_spice.dat": "5d043fe1fa5705ebc7d4474770d51d5dfecd418c8904cbc2e69e354ce1ad776f",
+  "spice_case/output_gate_2_spice.dat": "47756b62a00dbb312f5afb289c687689b8bcbd4cdcd5bc333d1af7e720bd2696",
+  "spice_case/output_gate_3_spice.dat": "e8098ab0ec73c89238f451ce4c6a40b03843c96b445bd2390e8530adbbdef04d",
+  "spice_case/output_gate_4_spice.dat": "3a937e7022d2135d748853f3fb4647dae88689aed35005f0596acb9601704c35",
+  "spice_case/output_gate_5_spice.dat": "307ceaec96274eaae92aa664f7ae23ad7fbe8da3bba24f7691f0c2dfaa2b822e",
+  "spice_case/output_gate_6_spice.dat": "7cd9350de5e64ac81d9d1f4e614f8d7f001f4f20879dacc41701e9be4ef86691",
+  "spice_case/transfer_spice.dat": "f0ba8ebc360917c01115acf2e3013ac12dfceaf646bccdc5b72a3480b568b192",
+  "stage2_STATUS.txt": "e59c62cc93f2fdf9ec4848907824ce3cc065360772398ca42cc39d32ef874c12",
+  "stage2_SUMMARY.txt": "45bde4e618f75b7815ad5d0742f30c1d01218e88889ac50cbc51de575b0f6d34",
+  "stage2_config.json": "e50710df601eb2ef671c06fcd8233edc9a184e8ec8ff8b35b7e40ecdd53afc9b",
+  "stage2_executed_source.m": "32a9c7120ba4025b9f4a8afaa61d4a7e96d00d988734c805adcd7d3687f4967b"
+}

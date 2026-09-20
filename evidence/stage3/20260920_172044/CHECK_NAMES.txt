@@ -1,0 +1,13 @@
+Raw row and unique-bias counts are correct
+Both fit windows contain enough distinct voltage points
+Transfer fit is in saturation under extracted parameters
+Output fit is in saturation under extracted parameters
+Estimated parameters are positive and finite
+Vth agrees with educational reference within 1e-6 V
+beta agrees with educational reference within 1e-8 A/V^2
+lambda agrees with educational reference within 1e-6 1/V
+No fitted bias appears in unique held-out data
+Split has 107 unique fitting and 959 unique held-out bias points
+All unique held-out points satisfy unchanged current tolerance
+Different beta/lambda pairs produce identical transfer current
+Those pairs produce distinguishable output current

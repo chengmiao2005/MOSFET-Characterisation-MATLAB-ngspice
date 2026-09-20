@@ -1,0 +1,189 @@
+{
+  "source": "Stage3_result_20260920_172044.zip",
+  "execution": "Python audit only; MATLAB/ngspice not rerun here",
+  "checks": [
+    {
+      "name": "Returned status is complete; MATLAB version and reused SPICE origin recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All input-snapshot SHA-256 values match manifest",
+      "passed": true,
+      "detail": {
+        "files": 16,
+        "mismatches": [],
+        "manifest_covers_all_input_files": true
+      }
+    },
+    {
+      "name": "Fit windows, candidates, grouping and original comparison tolerances unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eight raw SPICE curves have valid sizes, finite data and expected voltages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent centred-OLS parameter estimates agree with returned estimates",
+      "passed": true,
+      "detail": {
+        "independent_estimates": [
+          1.199999996740667,
+          0.0019999999898800886,
+          0.020000000591597487
+        ],
+        "differences": [
+          -6.661338147750939e-16,
+          -1.734723475976807e-18,
+          2.0816681711721685e-17
+        ]
+      }
+    },
+    {
+      "name": "Parameter CSV reference, error and relative-error columns are arithmetically consistent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MAT parameters and fit coefficients agree with CSV and independent fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved transfer/output fitting subsets equal original raw rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Both fitting windows satisfy the educational saturation condition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bias-point grouping and all partition counts recompute correctly",
+      "passed": true,
+      "detail": {
+        "raw_rows": 1078,
+        "unique_bias_points": 1066,
+        "direct_fit_rows": 108,
+        "unique_fit_bias_points": 107,
+        "all_rows_at_fit_biases": 109,
+        "heldout_rows": 969,
+        "unique_heldout_bias_points": 959
+      }
+    },
+    {
+      "name": "No fitting bias occurs in unique held-out data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All saved raw columns and split flags match independent reconstruction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 1078 predictions, residuals and tolerances match piecewise reconstruction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MAT arrays and grouping match the original rows and reconstructed partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unique-held-out CSV and MAT metrics recompute consistently",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent refit predicts the same held-out currents and passes unchanged tolerance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All eight per-curve held-out statistics recompute correctly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Identifiability candidate parameters, curves and residual statistics match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Candidate transfer curves coincide while output curves differ",
+      "passed": true,
+      "detail": {
+        "max_transfer_difference_A": 8.673617379884035e-19,
+        "max_output_difference_A": 0.00014816740496629427
+      }
+    },
+    {
+      "name": "All 13 original self-check conditions independently hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Five PNG files decode and graphics-error log is empty",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 21,
+  "total": 21,
+  "all_passed": true,
+  "parameters_order": [
+    "Vth_V",
+    "beta_A_per_V2",
+    "lambda_per_V"
+  ],
+  "independent_estimates": [
+    1.199999996740667,
+    0.0019999999898800886,
+    0.020000000591597487
+  ],
+  "returned_estimates": [
+    1.1999999967406676,
+    0.0019999999898800904,
+    0.020000000591597466
+  ],
+  "known_educational_parameters": [
+    1.2,
+    0.002,
+    0.02
+  ],
+  "counts": {
+    "raw_rows": 1078,
+    "unique_bias_points": 1066,
+    "direct_fit_rows": 108,
+    "unique_fit_bias_points": 107,
+    "all_rows_at_fit_biases": 109,
+    "heldout_rows": 969,
+    "unique_heldout_bias_points": 959
+  },
+  "heldout_metrics": {
+    "n": 959,
+    "max_abs_error_A": 1.1622999437910231e-11,
+    "rmse_A": 3.731914852553534e-12,
+    "max_abs_error_pA": 11.62299943791023,
+    "rmse_pA": 3.731914852553534,
+    "max_error_to_tolerance_ratio": 0.030099999093990026,
+    "all_within_unchanged_tolerance": true
+  },
+  "known_parameter_current_max_difference_A": 3.010002837255943e-12,
+  "identifiability": {
+    "max_transfer_difference_A": 8.673617379884035e-19,
+    "max_output_difference_A": 0.00014816740496629427
+  },
+  "caveats": [
+    "Known educational MOS1 model; fitting windows are model-informed, not blind identification.",
+    "Raw points are deterministic simulation samples from the same device/model, not independent physical measurements.",
+    "No instrument accuracy, empirical calibration traceability, hardware validation, model-mismatch robustness or uncertainty-coverage claim."
+  ],
+  "visual_review": "Separate manual image inspection is required; this script validates only file decoding."
+}

@@ -1,0 +1,22 @@
+MOSFET STAGE 1 - SYNTHETIC DATA ONLY
+MATLAB: 24.1.0.2537033 (R2024a)
+Seed: 20260920; Monte Carlo scenarios: 400
+Numerical checks: 12/12 passed
+Vth model parameter = 1.200000000 V
+Vth noiseless fit    = 1.200000000 V
+Vth raw mean25       = 1.184338652 V
+Vth corrected mean25 = 1.201010005 V
+Synthetic calibration slope = 1.008071899; intercept = 1.55639648e-05 A
+Clipped demo samples = 0
+MC scenarios with clipped samples = 0
+MC rows: method | valid | failed | bias_mV | sd_mV | rmse_mV | p025_V | p975_V
+Single raw | 400 | 0 | -0.518209 | 12.648017 | 12.642821 | 1.179108262 | 1.220468404
+Mean25 raw | 400 | 0 | -0.518210 | 12.548486 | 12.543500 | 1.179237620 | 1.220561980
+Single calibrated | 400 | 0 | -0.029080 | 1.725088 | 1.723176 | 1.196619837 | 1.203686574
+Mean25 calibrated | 400 | 0 | -0.029450 | 0.901792 | 0.901146 | 1.198042904 | 1.201844883
+Percentiles describe simulated estimator distributions, not validated confidence intervals.
+No temperature, gate/drain voltage uncertainty, drift, 1/f noise, loading or self-heating model.
+Reference currents are assumed exact. This is not traceable physical calibration.
+No hardware, wafer probing, commercial-device validation or SPICE run has been completed here.
+Graphics error (blank means none): 
+Results folder: [REDACTED_LOCAL_RESULTS_PATH]

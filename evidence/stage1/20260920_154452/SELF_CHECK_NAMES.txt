@@ -1,0 +1,12 @@
+Below-threshold channel current is zero
+Zero drain bias gives zero channel current
+Transfer curve is nonnegative and monotone
+Output curves are nonnegative and monotone
+Continuity at triode-saturation boundary
+Finite-difference gm agrees with analytic saturated gm
+Noiseless Vth extraction recovers known model parameter
+ADC clipping is detected and output is bounded
+Signed negative synthetic readings are preserved
+Exact affine inverse correction recovers reference currents
+Nonpositive fit-window currents are rejected
+Deterministic currents agree with packaged Python reference

@@ -1,0 +1,9 @@
+Noiseless threshold equals model Vth
+Pure current gain leaves square-root intercept unchanged
+Pure current gain scales numerical gm
+Positive current offset changes fitted threshold
+Exact inverse correction recovers ideal current
+Default VDS=3 fit window is saturated
+Low VDS=0.2 fit window is NOT saturated
+Five threshold values match Python mathematical reference
+Low-VDS fit matches Python mathematical reference
